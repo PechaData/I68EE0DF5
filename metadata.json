@@ -1,0 +1,19 @@
+{
+  "id": "I68EE0DF5",
+  "title": "Dummy Title",
+  "author": "Dummy Author",
+  "imported": "2024-10-16T15:13:10.154492",
+  "source": "Dummy Source",
+  "toolkit_version": "0.0.1",
+  "parser": "DurchenParser",
+  "initial_creation_type": "ebook",
+  "language": "bo",
+  "source_metadata": {},
+  "bases": [],
+  "copyright": {
+    "status": "Unknown",
+    "notice": "",
+    "info_url": null
+  },
+  "licence": "Unknown"
+}

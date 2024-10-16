@@ -1,0 +1,200 @@
+{
+  "@type": "AnnotationStore",
+  "@id": "I68EE0DF5",
+  "resources": [
+    {
+      "@type": "TextResource",
+      "@id": "7CDB",
+      "@include": "../../base/7CDB.txt"
+    }
+  ],
+  "annotationsets": [
+    {
+      "@type": "AnnotationDataSet",
+      "@id": "Variation_Annotation",
+      "keys": [
+        {
+          "@type": "DataKey",
+          "@id": "note"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "Spelling_Variation"
+        }
+      ],
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "F1EBA3F3",
+          "key": "note",
+          "value": {
+            "@type": "String",
+            "value": "(1) <«ཅོ་»«སྡེ་»«སྣར་»«པེ་»༄༅། །ཆོས་ཀྱི་དབྱིངས་སུ་བསྟོད་པ། ༄༅༅། །>"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "9F6F9354",
+          "key": "Spelling_Variation",
+          "value": {
+            "@type": "String",
+            "value": "Durchen"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "92EE2EC2",
+          "key": "note",
+          "value": {
+            "@type": "String",
+            "value": "(3) <«སྣར་»«པེ་»འཇམ་>"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "BD464D4E",
+          "key": "note",
+          "value": {
+            "@type": "String",
+            "value": "(4) <«སྣར་»«པེ་»ལོ།>"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "436C4130",
+          "key": "note",
+          "value": {
+            "@type": "String",
+            "value": "(5) <«སྣར་»«པེ་»རྣམས་>"
+          }
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "Annotation",
+      "@id": "C1192C5B",
+      "target": {
+        "@type": "TextSelector",
+        "resource": "7CDB",
+        "offset": {
+          "@type": "Offset",
+          "begin": {
+            "@type": "BeginAlignedCursor",
+            "value": 0
+          },
+          "end": {
+            "@type": "BeginAlignedCursor",
+            "value": 5
+          }
+        }
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "F1EBA3F3",
+          "set": "Variation_Annotation"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "9F6F9354",
+          "set": "Variation_Annotation"
+        }
+      ]
+    },
+    {
+      "@type": "Annotation",
+      "@id": "203C94AE",
+      "target": {
+        "@type": "TextSelector",
+        "resource": "7CDB",
+        "offset": {
+          "@type": "Offset",
+          "begin": {
+            "@type": "BeginAlignedCursor",
+            "value": 79
+          },
+          "end": {
+            "@type": "BeginAlignedCursor",
+            "value": 90
+          }
+        }
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "92EE2EC2",
+          "set": "Variation_Annotation"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "9F6F9354",
+          "set": "Variation_Annotation"
+        }
+      ]
+    },
+    {
+      "@type": "Annotation",
+      "@id": "1894848D",
+      "target": {
+        "@type": "TextSelector",
+        "resource": "7CDB",
+        "offset": {
+          "@type": "Offset",
+          "begin": {
+            "@type": "BeginAlignedCursor",
+            "value": 231
+          },
+          "end": {
+            "@type": "BeginAlignedCursor",
+            "value": 236
+          }
+        }
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "BD464D4E",
+          "set": "Variation_Annotation"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "9F6F9354",
+          "set": "Variation_Annotation"
+        }
+      ]
+    },
+    {
+      "@type": "Annotation",
+      "@id": "3E037DF0",
+      "target": {
+        "@type": "TextSelector",
+        "resource": "7CDB",
+        "offset": {
+          "@type": "Offset",
+          "begin": {
+            "@type": "BeginAlignedCursor",
+            "value": 540
+          },
+          "end": {
+            "@type": "BeginAlignedCursor",
+            "value": 544
+          }
+        }
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "436C4130",
+          "set": "Variation_Annotation"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "9F6F9354",
+          "set": "Variation_Annotation"
+        }
+      ]
+    }
+  ]
+}
